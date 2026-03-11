@@ -1,10 +1,4 @@
 <?php
-/**
- * Servidor de Desenvolvimento
- * Execute com: php -S localhost:8000 server.php
- * Depois acesse: http://localhost:8000
- */
-
 // Obter a URI da requisição
 $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
 $requestPath = parse_url($requestUri, PHP_URL_PATH);
